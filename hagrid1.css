@@ -1,0 +1,97 @@
+.hg-wrap{
+    display: grid;
+    width: 100%;
+    height: 100%;
+}
+/* X Axis Container Sizes Classes */
+.double-x{
+    grid-template-columns: repeat(2, 1fr);
+}
+.triple-x{
+    grid-template-columns: repeat(3, 1fr);
+}
+.quadruple-x{
+    grid-template-columns: repeat(4, 1fr);
+}
+.quintuple-x{
+    grid-template-columns: repeat(5, 1fr);
+}
+.sextuple-x{
+    grid-template-columns: repeat(6, 1fr);
+}
+.septuple-x{
+    grid-template-columns: repeat(7, 1fr);
+}
+.octuple-x{
+    grid-template-columns: repeat(8, 1fr);
+}
+.nonuple-x{
+    grid-template-columns: repeat(9, 1fr);
+}
+.decuple-x{
+    grid-template-columns: repeat(10, 1fr);
+}
+/* Y Axis Container Sizes Classes */
+.double-y{
+    grid-template-rows: repeat(2, 1fr);
+}
+.triple-y{
+    grid-template-rows: repeat(3, 1fr);
+}
+.quadruple-y{
+    grid-template-rows: repeat(4, 1fr);
+}
+.quintuple-y{
+    grid-template-rows: repeat(5, 1fr);
+}
+.sextuple-y{
+    grid-template-rows: repeat(6, 1fr);
+}
+.septuple-y{
+    grid-template-rows: repeat(7, 1fr);
+}
+.octuple-y{
+    grid-template-rows: repeat(8, 1fr);
+}
+.nonuple-y{
+    grid-template-rows: repeat(9, 1fr);
+}
+.decuple-y{
+    grid-template-rows: repeat(10, 1fr);
+}
+
+/* X Axis Gaps Classes */
+.gap-x-5{
+    grid-column-gap: 5px;
+}
+.gap-x-10{
+    grid-column-gap: 10px;
+}
+.gap-x-15{
+    grid-column-gap: 15px;
+}
+.gap-x-20{
+    grid-column-gap: 20px;
+}
+
+/* Y Axis Gaps Classes */
+.gap-y-5{
+    grid-row-gap: 5px;
+}
+.gap-y-10{
+    grid-row-gap: 10px;
+}
+.gap-y-15{
+    grid-row-gap: 15px;
+}
+.gap-y-20{
+    grid-row-gap: 20px;
+}
+
+
+.item{
+    background: orangered;
+    width: 75px;
+    height: 75px;
+}
+
